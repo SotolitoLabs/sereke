@@ -1,0 +1,44 @@
+
+.header {
+    text-align: center;
+    height: 20vh;
+}
+
+.mail_controls {
+    background-color: yellow;
+}
+
+.main {
+    display: flex;
+    height: 80vh;
+    border:2px dashed black;
+}
+
+.folders {
+    background-color: green;
+    border:2px dashed black;
+    width: 25%;
+    overflow-y: auto;
+}
+
+.message_box {
+    display: flex;
+    width: 75%;
+    background-color: red;
+    border:2px dashed black;
+    flex-wrap: wrap;
+}
+
+.message_list {
+    width: 100%;
+    background-color: blue;
+    border:2px dashed black;
+    overflow-y: auto;
+}
+
+.message {
+    width: 100%;
+    background-color: #114422;
+    border:2px dashed black;
+    overflow-y: auto;
+}

@@ -1,0 +1,25 @@
+{{template "header"}}
+{{define "main"}}
+
+  <div class="section main">
+    <div class="folders container">
+      <div class="row">
+        <div class="one-third column">
+          <!-- Folder List -->
+          {{template "folders"}}
+          <!-- /Folder List -->
+        </div>
+      </div>
+    </div>
+    <div class="container mail_list">
+        <div class="two-thirds column">
+          <!-- Message List -->
+          {{template "messages"}}
+          <!-- /Message List -->
+        </div>
+      </div>
+    </div>
+  </div>
+{{end}}
+
+{{template "footer"}}
